@@ -1,0 +1,60 @@
+/*colors :
+6C6E58
+3E423A
+417378
+A4CFBE
+F4F7D9*/
+* {
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+nav {
+  width: 100vw;
+  position: fixed;
+  height: 10vh;
+  background-color: #3E423A;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.nav-obj {
+  color: #F4F7D9;
+  padding: 2vw;
+}
+
+.home {
+  height: 50vh;
+  background-color: #3E423A;
+  display: flex;
+}
+.home h1 {
+  display: inline-block;
+  color: #F4F7D9;
+  margin: auto;
+}
+
+.work {
+  background-color: #F4F7D9;
+}
+.work .portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work .portfolio-obj {
+  width: 30vw;
+  margin: auto;
+  padding: 2vh;
+
+}
+.work .portfolio-obj .image-container img {
+  width: 20vw;
+  height: 20vh;
+}
+.about-me {
+  background-color: green;
+}
+footer {
+  background-color: #cecece;
+}
