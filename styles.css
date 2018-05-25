@@ -23,6 +23,10 @@ nav {
   color: #F4F7D9;
   padding: 2vw;
 }
+.nav-obj a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .home {
   height: 50vh;
@@ -39,6 +43,7 @@ nav {
   background-color: #F4F7D9;
 }
 .work .portfolio-container {
+  padding: 5vh 5vh 15vh 5vh;
   display: flex;
   flex-wrap: wrap;
 }
@@ -52,9 +57,78 @@ nav {
   width: 20vw;
   height: 20vh;
 }
+
+
 .about-me {
-  background-color: green;
+  position: relative;
+  background-color: #A4CFBE;
+  height: 80vh;
+}
+.about-me .profile-image-container img {
+  margin-top: -10vw;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 100vw;
+}
+
+.about-me h2 {
+  height: 10vh;
+  padding-top: 1vw;
+}
+.about-me .about-me-info-container {
+  height: 40vh;
+  padding-top: 3vh;
+  display: flex;
+  justify-content: center;
+/*  background-color: #F4F7D9
+*/}
+.about-me .about-me-text {
+  margin: 0 2vh;
+  padding: 2vh;
+  text-align: left;
+  width: 30vw;
+  background-color: #F4F7D9;
+}
+.about-me .about-me-skills {
+  margin: 0 2vh;
+  padding: 2vh;
+  list-style: none;
+  width: 30vw;
+  background-color: #F4F7D9;
+}
+.about-me .about-me-skills li {
+  text-align: left;
+}
+.about-me .links-container {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.about-me .links-container div a{
+  width: 8vh;
+  height: 8vh;
+  margin-bottom: 2vh;
+}
+.github {
+  content:url('./images/github-logo.png');
+}
+.linkedin {
+  margin: 0 2vw 0 2vw;
+  content:url('./images/linkedin-logo.png');
+}
+.mail {
+  content:url('./images/mail-logo.png');
 }
 footer {
-  background-color: #cecece;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #F4F7D9;
+  height: 10vh;
+  background-color: #3E423A;
+}
+footer p {
+  margin: 0 auto;
 }

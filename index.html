@@ -5,18 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./styles.css">
+  <link rel="icon" href="./images/favicon.png" sizes="16x16" type="image/png">
   <title>Andrew Bryner</title>
 </head>
 <body>
   <nav>
-    <div class="nav-obj">Home</div>
-    <div class="nav-obj">Work</div>
-    <div class="nav-obj">About Me</div>
+    <div class="nav-obj"><a href="#home">Home</a></div>
+    <div class="nav-obj"><a href="#work">Work</a></div>
+    <div class="nav-obj"><a href="#about-me">About me</a></div>
   </nav>
-  <div class="home">
+  <div class="home" id="home">
     <h1>Andrew Bryner</h1>
   </div>
-  <div class="work">
+  <div class="work" id="work">
     <div class="portfolio-container">
       <div class="portfolio-obj">
         <div class="image-container"><img src="./images/castle.jpg" alt=""></div>
@@ -45,26 +46,28 @@
       </div>
     </div>
   </div>
-  <div class="about-me">
-    <div class="profile-image-containter"></div>
+  <div class="about-me" id="about-me">
+    <div class="profile-image-container"><img src="./images/castle.jpg" alt=""></div>
       <h2>About Me</h2>
-      <p class="about-me-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sapiente quia distinctio, quasi rerum omnis, adipisci? Voluptas earum omnis, quo ratione, aut possimus. Est cum, repellendus! Odio nesciunt, quo aperiam.</p>
-      <ul class="about-me'skills">
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
-        <li>d</li>
-        <li>e</li>
-      </ul>
+      <div class="about-me-info-container">
+        <p class="about-me-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sapiente quia distinctio, quasi rerum omnis, adipisci? Voluptas earum omnis, quo ratione, aut possimus. Est cum, repellendus! Odio nesciunt, quo aperiam.</p>
+        <ul class="about-me-skills">
+          <li>a</li>
+          <li>b</li>
+          <li>c</li>
+          <li>d</li>
+          <li>e</li>
+        </ul>
+      </div>
       <div class="links-container">
-        <div>Github</div>
-        <div>LinkedIn</div>
-        <div>Email</div>
+        <div><a target="_blank" href="https://github.com/Teefmummy" class="github"></a></div>
+        <div><a target="_blank" href="https://www.linkedin.com/in/andrew-bryner" class="linkedin"></a></div>
+        <div><a  href="mailto:bryner.and@gmail.com" class="mail"></a></div>
       </div>
   </div>
   <footer>
-    <p>email</p>
-    <p>Something</p>
+    <p>bryner.and@gmail.com</p>
+    <p>GOTTA GO TO WORK, GOTTA GO TO WORK, GOTTA HAVE A JOB</p>
   </footer>
 </body>
 </html>
