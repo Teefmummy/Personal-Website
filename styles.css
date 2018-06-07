@@ -51,14 +51,47 @@ nav {
   width: 30vw;
   margin: auto;
   padding: 2vh;
-
 }
-.work .portfolio-obj .image-container img {
+
+.work .portfolio-obj .image-container  {
   width: 20vw;
   height: 20vh;
 }
-
-
+.work .portfolio-obj .image-container a  {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.image-container a .shooting-gallery {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/teefmummy/image/upload/v1528393910/Portfolio%20Site/Shooting-Gallery.png');
+}
+.image-container a .tournament-maker {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/teefmummy/image/upload/v1528396880/Portfolio%20Site/Tournament-Maker.png');
+}
+.image-container a .locations-list {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/teefmummy/image/upload/v1528401860/Portfolio%20Site/Travel_Locations_Project.png');
+}
+.image-container a .japan-tour {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/teefmummy/image/upload/v1528402407/Portfolio%20Site/Tour_Japan.png');
+}
+.image-container a .flashcard-app {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/teefmummy/image/upload/v1528402407/Portfolio%20Site/Tour_Japan.png');
+}
 .about-me {
   position: relative;
   background-color: #A4CFBE;
