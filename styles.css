@@ -49,6 +49,7 @@ nav {
   margin: auto;
 }
 
+
 /*portfolio section*/
 
 .work {
@@ -71,6 +72,7 @@ nav {
   border-radius: 2vh;
 }
 .work .portfolio-obj .image-container  {
+  margin: 0 auto;
   align-items: center;
   width: 20vw;
   height: 20vh;
@@ -81,6 +83,7 @@ nav {
   width: 100%;
 }
 .image-container a div{
+  border-radius: 1vh;
   height: 100%;
   width: 100%;
   background-size: cover;
