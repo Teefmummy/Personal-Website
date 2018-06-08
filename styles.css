@@ -11,7 +11,11 @@ F4F7D9*/
   padding:0;
   box-sizing:border-box;
 }
+
+/*nav section */
+
 nav {
+  z-index: 12;
   width: 100vw;
   position: fixed;
   height: 10vh;
@@ -27,6 +31,11 @@ nav {
   text-decoration: none;
   color: inherit;
 }
+.nav-obj:hover {
+  border-bottom: solid 3px #F4F7D9;
+}
+
+/*home for name*/
 
 .home {
   height: 50vh;
@@ -34,26 +43,35 @@ nav {
   display: flex;
 }
 .home h1 {
+  font-size: 5vh;
   display: inline-block;
   color: #F4F7D9;
   margin: auto;
 }
 
+/*portfolio section*/
+
 .work {
   background-color: #F4F7D9;
 }
 .work .portfolio-container {
-  padding: 5vh 5vh 15vh 5vh;
+  margin: 0 10vw 0 10vw;
+  padding: 5vh 5vh 20vh 5vh;
   display: flex;
   flex-wrap: wrap;
 }
 .work .portfolio-obj {
-  width: 30vw;
+  /*background-color: red;*/
   margin: auto;
+  align-items: center;
   padding: 2vh;
 }
-
+.work .portfolio-obj:hover {
+  background-color: #A4CFBE;
+  border-radius: 2vh;
+}
 .work .portfolio-obj .image-container  {
+  align-items: center;
   width: 20vw;
   height: 20vh;
 }
@@ -62,49 +80,45 @@ nav {
   height: 100%;
   width: 100%;
 }
-.image-container a .shooting-gallery {
+.image-container a div{
   height: 100%;
   width: 100%;
   background-size: cover;
+}
+.shooting-gallery {
   background-image: url('https://res.cloudinary.com/teefmummy/image/upload/v1528393910/Portfolio%20Site/Shooting-Gallery.png');
 }
-.image-container a .tournament-maker {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
+.tournament-maker {
   background-image: url('https://res.cloudinary.com/teefmummy/image/upload/v1528396880/Portfolio%20Site/Tournament-Maker.png');
 }
-.image-container a .locations-list {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
+.locations-list {
   background-image: url('https://res.cloudinary.com/teefmummy/image/upload/v1528401860/Portfolio%20Site/Travel_Locations_Project.png');
 }
 .image-container a .japan-tour {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
   background-image: url('https://res.cloudinary.com/teefmummy/image/upload/v1528402407/Portfolio%20Site/Tour_Japan.png');
 }
 .image-container a .flashcard-app {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
   background-image: url('https://res.cloudinary.com/teefmummy/image/upload/v1528403495/Portfolio%20Site/Flashcard_App.png');
 }
+
+/*about me section */
+
 .about-me {
   position: relative;
   background-color: #A4CFBE;
   height: 80vh;
 }
 .about-me .profile-image-container img {
+  vertical-align: middle;
   margin-top: -10vw;
   width: 20vw;
   height: 20vw;
-  border-radius: 100vw;
+  border-radius: 100%;
+  background: center no-repeat;
 }
 
 .about-me h2 {
+  font-size: 5vh;
   height: 10vh;
   padding-top: 1vw;
 }
@@ -131,6 +145,7 @@ nav {
 }
 .about-me .about-me-skills li {
   text-align: left;
+  padding-bottom: 1vh;
 }
 .about-me .links-container {
   position: absolute;
@@ -154,6 +169,9 @@ nav {
 .mail {
   content:url('./images/mail-logo.png');
 }
+
+/*footer section*/
+
 footer {
   display: flex;
   align-items: center;
