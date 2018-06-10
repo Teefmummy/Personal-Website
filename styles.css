@@ -4,6 +4,7 @@
 417378
 A4CFBE
 F4F7D9*/
+
 * {
   font-family: 'Muli', sans-serif;
   text-align: center;
@@ -13,7 +14,6 @@ F4F7D9*/
 }
 
 /*nav section */
-
 nav {
   z-index: 12;
   width: 100vw;
@@ -23,6 +23,7 @@ nav {
   display: flex;
   flex-direction: row-reverse;
 }
+
 .nav-obj {
   color: #F4F7D9;
   padding: 2vw;
@@ -133,6 +134,8 @@ nav {
 /*  background-color: #F4F7D9
 */}
 .about-me .about-me-text {
+  overflow: scroll;
+
   margin: 0 2vh;
   padding: 2vh;
   text-align: left;
@@ -140,6 +143,8 @@ nav {
   background-color: #F4F7D9;
 }
 .about-me .about-me-skills {
+  overflow: scroll;
+
   margin: 0 2vh;
   padding: 2vh;
   list-style: none;
@@ -186,3 +191,5 @@ footer {
 footer p {
   margin: 0 auto;
 }
+
+
